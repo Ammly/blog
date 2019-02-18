@@ -1,7 +1,7 @@
 <div class="flex justify-center lg:-mx-12 my-12 p-6 md:px-12 bg-grey-lighter border border-grey-light text-sm md:rounded shadow">
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
-        <form action="https://your-mail-chimp-list-manage-url" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form action="https://ammly.us20.list-manage.com/subscribe/post?u=1b1f66bf8ab57ab71e9f5e0be&amp;id=cbcf7e3099" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
                 <h2>Sign up for our newsletter</h2>
                 <div class="mc-field-group">
