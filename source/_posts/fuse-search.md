@@ -4,7 +4,8 @@ section: content
 title: Fuse Search
 date: 2018-12-22
 description: Fast local search powered by FuseJS
-cover_image: /assets/img/post-cover-image-1.png
+cover_image: /assets/img/post-cover-image-1.svg
+featured: true
 categories: [feature]
 ---
 

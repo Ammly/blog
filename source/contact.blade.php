@@ -10,9 +10,7 @@
 @section('body')
 <h1>Contact</h1>
 
-<p class="mb-8">
-    Static sites are unable to handle form submissions. However, there are third-party services, like Tighten’s <a href="https://fieldgoal.io" title="FieldGoal">FieldGoal</a>, which can accept the form submission, email you the result, and redirect back to a thank you page.
-</p>
+<p class="mb-8">Say Hello. Or contact me on Twitter<a href="https://twitter.com/ammlyf" target="_blank" class="bg-grey-dark text-grey-darkest p-1 mb-2 text-sm rounded hover:bg-blue-darkest hover:text-white">@ammlyf</a></p>
 
 <form action="/contact" class="mb-12">
     <div class="flex flex-wrap mb-6 -mx-3">
@@ -24,7 +22,7 @@
             <input
                 type="text"
                 id="contact-name"
-                placeholder="Jane Doe"
+                placeholder="Your Name"
                 name="name"
                 class="block w-full border shadow rounded-lg outline-none mb-2 p-4"
                 required
