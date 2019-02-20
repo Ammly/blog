@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'ammly.com',
+    'baseUrl' => 'jigsaw.test',
     'production' => false,
     'siteName' => 'Ammly\'s Blog',
     'siteDescription' => 'Ammly Fredrick\'s blog',

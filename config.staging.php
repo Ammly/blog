@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'http://ammly-blog-staging.ammly.com',
+    'baseUrl' => 'http://staging.ammly.com',
     'production' => false,
 ];

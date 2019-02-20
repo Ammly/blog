@@ -17,7 +17,7 @@
                 </a>
             </h2>
 
-            <p class="mt-0 mb-4">{!! $featuredPost->getExcerpt() !!}</p>
+            <p class="mt-0 mb-4">{!! $post->summary ? $post->summary : $featuredPost->getExcerpt() !!}</p>
 
             <a href="{{ $featuredPost->getUrl() }}" title="Read - {{ $featuredPost->title }}" class="uppercase tracking-wide mb-4">
                 Read
@@ -28,8 +28,6 @@
             <hr class="border-b my-6">
         @endif
     @endforeach
-
-    @include('_components.newsletter-signup')
 
     @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">
@@ -48,4 +46,7 @@
             <hr class="w-full border-b mt-2 mb-6">
         @endif
     @endforeach
+
+    @include('_components.newsletter-signup')
+    
 @stop
