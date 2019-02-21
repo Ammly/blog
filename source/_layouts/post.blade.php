@@ -30,6 +30,8 @@
         @yield('content')
     </div>
 
+    @include('_components.newsletter-signup')
+
     <nav class="flex justify-between text-sm md:text-base">
         <div>
             @if ($next = $page->getNext())

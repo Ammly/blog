@@ -3,7 +3,7 @@
     <div id="mc_embed_signup">
         <form action="https://ammly.us20.list-manage.com/subscribe/post?u=1b1f66bf8ab57ab71e9f5e0be&amp;id=cbcf7e3099" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-                <h2>Sign up for our newsletter</h2>
+                <h2>Want a weekly digest of these blog posts?</h2>
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">Email Address </label>
                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
