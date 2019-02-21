@@ -83,13 +83,13 @@
             </ul>
             <div class="md:flex-row justify-center list-reset">
                 <p class="md:mr-2">
-                    &copy; Ammly {{ date('Y') }}.
+                    &copy; Ammly {{ date('Y') }}
                 </p>
 
-                <p>
+                {{-- <p>
                     Built with <a target="_blank" href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
                     & <a target="_blank" href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>. Hosted on <a target="_blank" href="http://netlify.com" title="Netlify">Netlify</a>.
-                </p>
+                </p> --}}
             </div>
         </footer>
 
