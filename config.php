@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'jigsaw.test',
+    'baseUrl' => 'http://localhost:3000/',
     'production' => false,
     'siteName' => 'Ammly\'s Blog',
     'siteDescription' => 'Ammly Fredrick\'s blog',

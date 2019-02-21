@@ -12,7 +12,7 @@
 
 <p class="mb-8">Say Hello. Or contact me on Twitter<a href="https://twitter.com/ammlyf" target="_blank" class="bg-grey-dark text-grey-darkest p-1 mb-2 text-sm rounded hover:bg-blue-darkest hover:text-white">@ammlyf</a></p>
 
-<form name="contact" action="/contact" method="POST" data-netlify="true" class="mb-12" id="contact">
+<form name="contact" class="mb-12" id="contact" netlify>
     <div class="flex flex-wrap mb-6 -mx-3">
         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
             <label class="block mb-2 text-grey-darkest text-sm font-semibold" for="contact-name">
