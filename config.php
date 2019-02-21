@@ -3,8 +3,8 @@
 return [
     'baseUrl' => 'http://localhost:3000/',
     'production' => false,
-    'siteName' => 'Ammly\'s Blog',
-    'siteDescription' => 'Ammly Fredrick\'s blog',
+    'siteName' => 'Ammly',
+    'siteDescription' => 'Ammly Fredrick\'s website',
     'siteAuthor' => 'Ammly',
 
     // collections
