@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://ammly.com',
+    'baseUrl' => 'https://ammly.netlify.com',
     'production' => true,
 ];
