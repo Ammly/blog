@@ -34,11 +34,10 @@ This will create a project called __jenga__.
 
 * Navigate to the directory and setup your database credentials in the `.env` file.
 
-* Store the SSL keys you generated [above](#Generate SSL Certificate) in the`storage` folder.
+* Store the SSL keys you generated [above](#generate-ssl-certificate) in the`storage` folder.
 
 * Populate the following configs on your `.env` file with the credentials from your `Jenga Hq Account`
 
-  ​	
 
   ```bash
   JENGA_USERNAME=
@@ -50,18 +49,12 @@ This will create a project called __jenga__.
   ```
 
   
-
-* Install  [GuzzleHttp](https://guzzlehttp.com) for making HTTP requests
-
-  ​	
+* Install  [GuzzleHttp](https://guzzlehttp.com) for making HTTP requests  ​	
 
   ​	` composer install GuzzleHttp `
 
-  
 
 * Create a `JengaController`, or use any name you like.
-
-  ​	
 
   ​	` php artisan make:controller JengaController `
 
@@ -83,9 +76,6 @@ The generated token will be sent as the Authorization bearer token in the header
 
 - Create `  authenticate` action on `  JengaController`. We are also making a constructor to grab the config file settings for your Jenga Account.
 
-  ​	
-
-  ​	
 
   ```php 
   <?php 
