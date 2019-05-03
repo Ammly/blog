@@ -6,7 +6,7 @@ date: 2019-05-03
 description: Working with Equity's Jenga API and GuzzleHttp on Laravel
 cover_image: /assets/img/intergration.svg
 featured: true
-categories: [API, Laravel]
+categories: [Jenga API, Laravel]
 ---
 
 This article will take you through the first steps to get started working with [Equity Bank's Jenga API](https://jengahq.io) to perform different transactions  using Laravel with GuzzleHttp.
@@ -157,15 +157,14 @@ Here's a request to get the account balance.
 
 ```php
 <?php 
-public function accountBalance($params)
+public function accountBalance()
     {
-        $defaults = [
+      //set params reqiored for the request
+        $params = [
             'account_id' => 127381,
             'country_code' => 'KE',
             'date' => date('Y-m-d'),
         ];
-    
-        $params = array_merge($defaults, $params);
     
         $plainText = $params['country_code'].$params['account_id'];
     
@@ -173,8 +172,10 @@ public function accountBalance($params)
     
         $token = $this->token;
     
+        //Get a unique signiture from a combination of your privatekey and a unique text
         openssl_sign($plainText, $signature, $privateKey, OPENSSL_ALGO_SHA256);
-    
+        
+        // Send the request
         try {
             $client = new Client(['base_uri' => $this->endpoint]);
             $request = $client->request('GET', 'account/v2/accounts/balances/'.$params['country_code'].'/'.$params['account_id'], [
