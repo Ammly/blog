@@ -51,7 +51,7 @@ This will create a project called __jenga__.
   
 * Install  [GuzzleHttp](https://guzzlehttp.com) for making HTTP requests  ​	
 
-  ​	` composer install GuzzleHttp `
+  ​	` composer require guzzlehttp/guzzle:~6.0 `
 
 
 * Create a `JengaController`, or use any name you like.
