@@ -83,7 +83,7 @@
             </ul>
             <div class="md:flex-row justify-center list-reset">
                 <p class="md:mr-2">
-                    &copy; Ammly {{ date('Y') }}
+                    &copy; Ammly 2020
                 </p>
 
                 {{-- <p>
